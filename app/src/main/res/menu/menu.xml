@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ListView"
+        android:title="ListView效果">
+        <menu>
+            <item
+                android:id="@+id/ListView_vertical_stander"
+                android:title="垂直标准" />
+            <item
+                android:id="@+id/ListView_vertical_reverse"
+                android:title="垂直反向" />
+            <item
+                android:id="@+id/ListView_horizontal_stander"
+                android:title="水平标准" />
+            <item
+                android:id="@+id/ListView_horizontal_reverse"
+                android:title="水平反向" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/GridView"
+        android:title="GridView效果">
+        <menu>
+            <item
+                android:id="@+id/GridView_vertical_stander"
+                android:title="垂直标准" />
+            <item
+                android:id="@+id/GridView_vertical_reverse"
+                android:title="垂直反向" />
+            <item
+                android:id="@+id/GridView_horizontal_stander"
+                android:title="水平标准" />
+            <item
+                android:id="@+id/GridView_horizontal_reverse"
+                android:title="水平反向" />
+        </menu>
+
+
+    </item>
+
+    <item
+        android:id="@+id/StaggerView"
+        android:title="瀑布流效果">
+        <menu>
+            <item
+                android:id="@+id/stagger_vertical_stander"
+                android:title="垂直标准" />
+            <item
+                android:id="@+id/stagger_vertical_reverse"
+                android:title="垂直反向" />
+            <item
+                android:id="@+id/stagger_horizontal_stander"
+                android:title="水平标准" />
+            <item
+                android:id="@+id/stagger_horizontal_reverse"
+                android:title="水平反向" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/more_type"
+        android:title="多种条目类型">
+    </item>
+
+</menu>
